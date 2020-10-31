@@ -1,4 +1,6 @@
-1. install docker 
+1. install docker prometheus
 sudo docker pull prom/prometheus
 
 2. start prometheous
+sudo docker run -p 9090:9090 -v /home/manoj.singh/manoj/projects/springboot-grafana/src/main/resources/prometheus.yml prom/prometheus
+
