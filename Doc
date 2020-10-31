@@ -4,3 +4,10 @@ sudo docker pull prom/prometheus
 2. start prometheous
 sudo docker run -p 9090:9090 -v /home/manoj.singh/manoj/projects/springboot-grafana/src/main/resources/prometheus.yml prom/prometheus
 
+3. install docker grafana
+sudo docker pull grafana/grafana
+
+4.start grafana
+sudo docker run -d -p 3000:3000 grafana/grafana
+
+
