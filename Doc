@@ -1,0 +1,4 @@
+1. install docker 
+sudo docker pull prom/prometheus
+
+2. start prometheous
